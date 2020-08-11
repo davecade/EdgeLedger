@@ -1,0 +1,17 @@
+.text-primary {
+    color: #28a745;
+}
+
+.bg-primary {
+    color: white;
+    background: #28a745;;
+}
+
+.btn {
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 1.01rem;
+}
