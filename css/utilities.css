@@ -7,6 +7,11 @@
     background: #28a745;;
 }
 
+.bg-light {
+    background: lightgray;
+    color: #333;
+}
+
 .btn {
     height: 50px;
     width: 150px;
@@ -14,4 +19,27 @@
     outline: none;
     border: none;
     font-size: 1.01rem;
+}
+
+.flex-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    width: 50%;
+}
+
+.flex-column img {
+    height: 100%;
+    width: 100%;
+    
 }
