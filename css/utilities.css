@@ -12,6 +12,11 @@
     background: rgba(0, 0, 255);
 }
 
+.bg-dark {
+    background: #333;
+    color: lightgray;
+}
+
 .bg-light {
     background: lightgray;
     color: #333;

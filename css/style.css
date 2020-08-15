@@ -172,3 +172,20 @@ a {
     padding-bottom: 30px;
 }
 
+#Contact h1 {
+    font-size: 2rem;
+}
+
+#Contact input,
+#Contact button {
+    margin: 10px 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#Contact button {
+    cursor: pointer;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+}
