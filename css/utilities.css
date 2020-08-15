@@ -7,6 +7,11 @@
     background: #28a745;;
 }
 
+.bg-secondary {
+    color: white;
+    background: rgba(0, 0, 255);
+}
+
 .bg-light {
     background: lightgray;
     color: #333;
@@ -19,6 +24,7 @@
     outline: none;
     border: none;
     font-size: 1.01rem;
+    cursor: pointer;
 }
 
 .flex-items {
@@ -28,18 +34,18 @@
     text-align: center;
 }
 
-.flex-row {
+
+.flex-columns {
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .flex-column {
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
 }
 
-.flex-column img {
-    height: 100%;
-    width: 100%;
-    
+.flex-reverse {
+    flex-direction: row-reverse;
 }

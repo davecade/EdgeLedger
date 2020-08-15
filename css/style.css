@@ -99,3 +99,55 @@ a {
     width: 50px;
     border-radius: 50%;
 }
+
+.container .flex-column img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.content h4,
+.content h1,
+.content p,
+.content button {
+    margin: 20px 30px;
+}
+
+.content button {
+    border: 1px solid white;
+}
+#cases {
+    padding-bottom: 30px;
+}
+
+.container .cases-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container .cases-heading h4,
+.container .cases-heading p,
+.container .cases-heading button {
+    margin: 20px 30px;
+}
+
+.container .img-row {
+    display: flex;
+    padding: 0 4px;
+}
+
+.container .img-column {
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.container .img-column img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
