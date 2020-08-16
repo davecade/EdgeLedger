@@ -17,7 +17,7 @@ window.onscroll = function() {
     }
 }
 
-$('.navbar-container').on('click', function (e) {
+$('.navbar-container a').on('click', function (e) {
     if (this.hash !== '') {
       e.preventDefault();
 
