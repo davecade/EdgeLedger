@@ -116,7 +116,7 @@ a {
 .content button {
     border: 1px solid white;
 }
-#cases {
+.container.bg-light {
     padding-bottom: 30px;
 }
 
@@ -188,4 +188,20 @@ a {
     font-size: 1rem;
     outline: none;
     border: none;
+}
+
+#footer{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__container {
+    margin-bottom: 20px;
+}
+
+.social__container a {
+    margin: 10px;
 }
