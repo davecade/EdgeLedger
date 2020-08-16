@@ -136,26 +136,31 @@ a {
 
 .container .img-row {
     display: flex;
-    padding: 0 4px;
 }
 
 .container .img-column {
     display: flex;
     flex-direction: column;
     max-width: 25%;
-    padding: 0 4px;
+}
+
+.container .img-column a {
+    height: 100%;
+    width: 100%;
 }
 
 .container .img-column img {
-    height: 50%;
+    height: 100%;
     width: 100%;
     object-fit: cover;
+    padding: 4px;
 }
 
 #team .team-item img {
     height: 300px;
     width: 300px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 #team .team-header {
@@ -181,6 +186,10 @@ a {
     margin: 10px 20px;
     padding: 20px;
     border-radius: 5px;
+}
+
+#Contact input:focus {
+    outline-color: #28a745;
 }
 
 #Contact button {
