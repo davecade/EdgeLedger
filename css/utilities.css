@@ -1,15 +1,20 @@
+:root {
+    --primary-color: #28a745;
+    --secondary-color: rgba(0, 0, 255);
+}
+
 .text-primary {
-    color: #28a745;
+    color: var(--primary-color);
 }
 
 .bg-primary {
     color: white;
-    background: #28a745;;
+    background: var(--primary-color);;
 }
 
 .bg-secondary {
     color: white;
-    background: rgba(0, 0, 255);
+    background:var(--secondary-color);
 }
 
 .bg-dark {
